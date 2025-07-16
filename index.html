@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volux LED Cube</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon " href="img/volux logo.png" />
+  </head>
+  <body id="home">
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/volux logo.png" alt="Volux Logo" style="height: 36px; vertical-align: middle; margin-right: 10px" />
+        </div>
+        <!-- Hamburger menu button for mobile -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" onclick="return false;"><img src="https://img.icons8.com/ios-filled/20/000000/facebook-new.png" alt="fb" /></a>
+          <a href="#" onclick="return false;"><img src="https://img.icons8.com/ios-filled/20/000000/instagram-new.png" alt="ig" /></a>
+          <a href="#" onclick="return false;"><img src="https://img.icons8.com/ios-filled/20/000000/linkedin.png" alt="in" /></a>
+        </div>
+        <!-- Mobile menu overlay -->
+        <div class="mobile-menu" id="mobileMenu">
+          <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#product" class="mobile-link">Product</a></li>
+            <li><a href="#activities" class="mobile-link">Activities</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#contact" class="mobile-link">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero" style="background: url('img/led aestetic.jpg') center center/cover no-repeat">
+      <div class="hero-content">
+        <h1>VOLUX LED CUBE</h1>
+        <h2>Hadirkan Dimensi Baru dalam Visualisasi</h2>
+        <p style="color: #fff">Teknologi LED Cube 3D kami menciptakan pengalaman visual yang memukau—interaktif, futuristik, dan tak terlupakan</p>
+        <button class="btn-primary" id="scrollProductBtn">product</button>
+      </div>
+    </section>
+    <section class="product-showcase" id="product">
+      <div class="cube-images">
+        <img src="img/Led cube2.png" alt="Cube Image 1" class="product-img" data-index="0" />
+        <img src="img/Led cube3.png" alt="Cube Image 2" class="product-img" data-index="1" />
+        <img src="img/led-cube4.png" alt="Cube Image 3" class="product-img" data-index="2" />
+      </div>
+    </section>
+    <section class="activities" id="activities">
+      <h2>Kegiatan Volux</h2>
+      
+      <div class="activity-content">
+        <img class="activity-img" src="img/printing 3d.png" alt="3D Printing Training" />
+        <div class="activity-desc">
+          <h3>Pelatihan 3D Printing bersama Volux</h3>
+          <p>
+            Volux berkolaborasi dengan @mersiflab.official dan SMP Negeri 13 Surakarta dalam program pelatihan 3D Printing.<br /><br />
+            Senin, 23 Juni 2025<br />
+            Volux bersama MersifLab menggelar pelatihan pengenalan teknologi 3D untuk para guru di SMP Negeri 13 Surakarta.<br /><br />
+            Kegiatan ini bertujuan memperkuat literasi teknologi di kalangan pendidik, agar lebih siap menghadirkan pembelajaran yang inovatif dan kontekstual.
+          </p>
+        </div>
+      </div>
+
+      <div class="activity-content">
+        <img class="activity-img" src="img/absensi.jpg" alt="Coaching Management" />
+        <div class="activity-desc">
+          <h3>Coaching Manajemen Dana Usaha bersama Oddo</h3>
+          <p>
+            Kegiatan ini diselenggarakan oleh Oddo Indonesia, dimana berisi tentang pengenalan software manajemen keuangan, sesi QnA, dan membangun networking bersama pelaku usaha di wilayah Surakarta.<br /><br />
+            Program ini bertujuan untuk memberikan edukasi kepada para pelaku usaha tentang pentingnya manajemen keuangan yang baik dan penggunaan teknologi dalam mengelola bisnis.<br /><br />
+            Melalui kegiatan ini, diharapkan dapat terjalin hubungan bisnis yang saling menguntungkan antara sesama pelaku usaha.
+          </p>
+        </div>
+      </div>
+
+      <div class="activity-content">
+        <img class="activity-img" src="img/ilustration_volux.jpg" alt="Inkubasi Semesta" />
+        <div class="activity-desc">
+          <h3>Inkubasi Semesta</h3>
+          <p>
+            Berisi kegiatan Coaching pengelolaan dan pengembangan usaha rintisan oleh mentor berpengalaman bersama LPPM UNS.<br /><br />
+            Program inkubasi ini memberikan pendampingan komprehensif bagi startup dan usaha rintisan dalam mengembangkan model bisnis yang berkelanjutan.<br /><br />
+            Dengan bimbingan dari mentor yang berpengalaman, para peserta akan mendapat pengetahuan dan keterampilan yang diperlukan untuk mengembangkan bisnis mereka secara optimal.
+          </p>
+        </div>
+      </div>
+
+      <div class="activity-content">
+        <img class="activity-img" src="img/printed 3d.jpeg" alt="SDIT MTA Training" />
+        <div class="activity-desc">
+          <h3>Pelatihan 3D Printing di SDIT MTA Juwiring</h3>
+          <p>
+            Kegiatan memberikan materi dan pelatihan untuk mengembangkan media pembelajaran yang lebih interaktif dengan menggunakan 3D printing.<br /><br />
+            Program ini dirancang khusus untuk meningkatkan kualitas pembelajaran di SDIT MTA Juwiring dengan memanfaatkan teknologi 3D printing sebagai media pembelajaran yang inovatif.<br /><br />
+            Kegiatan ini diharapkan dapat terjalin hubungan yang baik antara kedua pihak (B2B) dan membuka peluang kerjasama lebih lanjut di bidang pendidikan teknologi.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <h2>Tentang Volux</h2>
+      <p>
+        Volux adalah perusahaan teknologi yang berfokus pada pengembangan dan produksi LED Cube berkualitas tinggi. Didirikan pada tahun 2019, kami telah menjadi pionir dalam industri LED Cube di Indonesia dengan inovasi yang terus
+        berkembang.<br /><br />
+        Visi kami adalah menjadikan teknologi LED Cube sebagai media pembelajaran yang menarik dan inspiratif untuk generasi muda Indonesia. Melalui berbagai program edukasi dan workshop, kami berkomitmen untuk meningkatkan literasi
+        teknologi di kalangan pelajar dan mahasiswa.<br /><br />
+        Tim Volux terdiri dari para ahli elektronika, programmer, dan desainer yang berpengalaman dalam menciptakan solusi LED Cube yang inovatif, user-friendly, dan berkualitas tinggi untuk berbagai kebutuhan.
+      </p>
+    </section>
+    <footer id="contact">
+      <div class="footer-content">
+        <h2>Contact Us</h2>
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h4>Reach us</h4>
+            <ul>
+              <li>📞 +62 821-5634-8012</li>
+              <li>✉️ info@volux.co.id</li>
+              <li>📍 <a href="https://www.google.com/maps?q=LPPMP+UNS,+Jl.+Ir.+Sutami+No.36A,+Jebres,+Kec.+Jebres,+Kota+Surakarta,+Jawa+Tengah+57126" target="_blank" rel="noopener noreferrer">LPPMP UNS, Jl. Ir. Sutami No.36A, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Product</h4>
+            <ul>
+              <li>LED Cube Kit</li>
+              <li>Custom LED Cube</li>
+              <li>Aksesoris & Sparepart</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Layanan</h4>
+            <ul>
+              <li>Workshop & Training</li>
+              <li>Konsultasi Teknis</li>
+              <li>Instalasi & Setup</li>
+              <li>After Sales Support</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Program</h4>
+            <ul>
+              <li>Sosialisasi Sekolah</li>
+              <li>Workshop Universitas</li>
+              <li>Training Corporate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Product Modal -->
+    <div id="productModal" class="product-modal">
+      <span class="modal-close" id="modalClose">&times;</span>
+      <img class="modal-img" id="modalImg" src="" alt="Product Preview" />
+      <div class="modal-nav">
+        <button id="modalPrev" class="modal-nav-btn">&#8592;</button>
+        <button id="modalNext" class="modal-nav-btn">&#8594;</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
